@@ -1,0 +1,31 @@
+.ttt {
+  /*margin: 20%;*/
+  top: 20%;
+  left: 20%;
+  right: 20%;
+  bottom: 20%;
+  margin: 0;
+}
+
+.ttt ul {
+  display: flex;
+  width: 300px;
+  margin: 0;
+}
+
+.ttt ul li {
+  display: block;
+  float: left;
+  font-size: 3em;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: grey;
+  /*position: absolute;*/
+}
+
+.ttt ul li:hover {
+  background-color: yellow;
+}
